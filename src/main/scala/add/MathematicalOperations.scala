@@ -53,24 +53,7 @@ object SimpleMethods {
       num
     }
   }
-  def remainingMoney(shoppingTotal: BigDecimal, yourMoney: BigDecimal): String={
-    val remainingMoney: BigDecimal = yourMoney- shoppingTotal
-    val x: String = remainingMoney match{
-      case remainingMoney if (remainingMoney > 0) => s"Thank you for your purchase, here is your $remainingMoney change"
-      case remainingMoney if (remainingMoney == 0) => s"Thank you for your purchase"
-      case _ => s"Sorry but you are $remainingMoney short!"
-    }
-    x
-  }
 
-
-  abstract class Animal
-
-  case class Mammal(name: String, fromSea: Boolean) extends Animal
-
-  case class Bird(name: String) extends Animal
-
-  case class Fish(name: String) extends Animal
 
 
 

@@ -2,7 +2,7 @@ package add
 
 
 
-class Animal extends App{
+class Animal extends App {
   case class Dog(name: String, breed: String, age: Int) extends Animal
 
   case class Cat(name: String, activity: String, colour: String) extends Animal
