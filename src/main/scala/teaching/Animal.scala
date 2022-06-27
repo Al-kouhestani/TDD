@@ -2,7 +2,7 @@ package teaching
 
 
 
-abstract class Animal {
+class Animal {
 
   def introduceYourself(animal: Animal): String = {
     animal match {
@@ -17,16 +17,13 @@ abstract class Animal {
 
   case class Cat(name: String, activity: String, colour: String) extends Animal
 
-  //  val animal= new Animal
-  //  val doggo= animal.
-  //  animal.introduceYourself(doggo)
 
-  object Application extends App {
-    val doggo = Dog("Baxter", "cockapoo", 5)
-    introduceYourself(doggo)
 
-  }
 }
+val animal = new Animal
+val doggo= animal.Dog("Baxter", "Cockapoo", 5)
+animal.introduceYourself(doggo)
+
 
 
 
