@@ -1,11 +1,9 @@
-package add
+package teaching
 
 
 
-class Animal extends App {
-  case class Dog(name: String, breed: String, age: Int) extends Animal
+abstract class Animal {
 
-  case class Cat(name: String, activity: String, colour: String) extends Animal
   def introduceYourself(animal: Animal): String = {
     animal match {
       case Dog(name, breed, age) => s"Woof! My name is $name, I'm a $age year old $breed"
@@ -13,8 +11,22 @@ class Animal extends App {
       case _ => "I'm an unknown animal"
     }
   }
-  val animal= new Animal
-  val doggo= animal.Dog("Baxter", "cockapoo", 5)
-  animal.introduceYourself(doggo)
+
+
+  case class Dog(name: String, breed: String, age: Int) extends Animal
+
+  case class Cat(name: String, activity: String, colour: String) extends Animal
+
+  //  val animal= new Animal
+  //  val doggo= animal.
+  //  animal.introduceYourself(doggo)
+
+  object Application extends App {
+    val doggo = Dog("Baxter", "cockapoo", 5)
+    introduceYourself(doggo)
+
+  }
 }
+
+
 
