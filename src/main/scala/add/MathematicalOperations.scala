@@ -10,7 +10,7 @@ object SimpleMethods {
 
   def evaluateCosts(x: BigDecimal): String = {
     x match {
-      case x if (x >= 50.00) => "too high" //ask mazin
+      case x if (x >= 50.00) => "too high"
       case _ => "within budget"
     }
   }
