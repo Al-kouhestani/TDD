@@ -1,1 +1,1 @@
-["unitTests.SimpleMethodsSpec"]
+["unitTests.AuthenticatorSpec","unitTests.SimpleMethodsSpec"]

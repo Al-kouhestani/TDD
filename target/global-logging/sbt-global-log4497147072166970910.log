@@ -1,0 +1,24 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(1f91a17c-5bd7-4eea-b64f-a2cfab54c40a), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/al/repos/personal/TDD/target/scala-2.13/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/al/repos/personal/TDD/target/scala-2.13/test-classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSimpleMethodsSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSimpleMethods[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should adding one to every element of the list[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSimpleMethods[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should print 'too high' if any number larger than 50 is passed to it[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSimpleMethods[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should the case classes should calculate the correct area when invoked *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  30 did not equal 21 (SimpleMethodsSpec.scala:28)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 160 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 2, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	unitTests.SimpleMethodsSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed 07-Jun-2022 12:19:33[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

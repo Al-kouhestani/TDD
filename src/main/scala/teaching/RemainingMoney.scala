@@ -1,0 +1,5 @@
+package teaching
+
+object RemainingMoney {
+
+}

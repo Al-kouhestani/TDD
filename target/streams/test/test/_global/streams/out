@@ -1,11 +1,28 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(unitTests.SimpleMethodsSpec, org.scalatest.tools.Framework$$anon$1@4bace700, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(unitTests.SimpleMethodsSpec, org.scalatest.tools.Framework$$anon$1@e79701c, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(unitTests.AuthenticatorSpec, org.scalatest.tools.Framework$$anon$1@e79701c, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticatorSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must return an error if any of the individual's name is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must return an error if any of the individual's surname is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must return an error if any of the individual's contact detail is missing[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mSimpleMethodsSpec:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mSimpleMethods[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should return the correct list when the map function is invoked[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 266 milliseconds.[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should adding one to every element of the list[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSimpleMethods[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should print 'too high' if any number larger than 50 is passed to it[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSimpleMethods[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should the case classes should calculate the correct area when invoked[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSimpleMethods[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return the correct sum of the list using foldLeft/Right[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSimpleMethods[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should factorial should return the correct sum[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 158 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 8[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 8, failed 0, canceled 0, ignored 0, pending 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	unitTests.AuthenticatorSpec[0m
 [0m[[0m[0mdebug[0m] [0m[0m	unitTests.SimpleMethodsSpec[0m

@@ -1,0 +1,28 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(c55fc7d2-655b-4bc3-b71b-d082cfe61993), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to /home/al/repos/personal/TDD/target/scala-2.13/test-classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticatorSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must return an error if any of the individual's name is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must return an error if any of the individual's surname is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must return an error if any of the individual's contact detail is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSimpleMethodsSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSimpleMethods[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should adding one to every element of the list[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSimpleMethods[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should print 'too high' if any number larger than 50 is passed to it[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSimpleMethods[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should the case classes should calculate the correct area when invoked[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSimpleMethods[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return the correct sum of the list using foldLeft/Right[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 213 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 7[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 7, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 1 s, completed 08-Jun-2022 14:37:44[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
