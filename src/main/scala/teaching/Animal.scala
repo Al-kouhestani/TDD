@@ -20,9 +20,9 @@ class Animal {
 
 
 }
-val animal = new Animal
-val doggo= animal.Dog("Baxter", "Cockapoo", 5)
-animal.introduceYourself(doggo)
+//val animal = new Animal
+//val doggo= animal.Dog("Baxter", "Cockapoo", 5)
+//animal.introduceYourself(doggo)
 
 
 

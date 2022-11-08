@@ -1,7 +1,6 @@
 package unitTests
 import add.SimpleMethods
-import add.SimpleMethods.MultiplesOf3Or5.solution
-import add.SimpleMethods.{MultiplesOf3Or5, Trapezoid, Triangle, factorial, factorial2, remainingMoney}
+import add.SimpleMethods.{Trapezoid, Triangle, factorial}
 import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.must.Matchers.convertToAnyMustWrapper
 
@@ -39,9 +38,9 @@ class SimpleMethodsSpec extends AnyFlatSpec {
     val c= factorial(a)
     c mustEqual b
   }
-  "SimpleMethods" should "factorial2 " in {
-//    val factorial4 = factorial2(5)
-    println(remainingMoney(16.50, 20.00))
-//    println(solution(5))
-  }
+//  "SimpleMethods" should "factorial2 " in {
+////    val factorial4 = factorial2(5)
+//    println(remainingMoney(16.50, 20.00))
+////    println(solution(5))
+//  }
 }
